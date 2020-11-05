@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 HERE = pathlib.Path(__file__).parent
 
 VERSION = '0.1.0'
-PACKAGE_NAME = 'easy'
+PACKAGE_NAME = 'easyds'
 AUTHOR = 'Ricardo Calura'
 AUTHOR_EMAIL = 'ricardo.calura29@gmail.com'
 URL = 'https://github.com/king-ds/easyds'
