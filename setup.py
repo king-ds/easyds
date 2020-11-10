@@ -3,12 +3,12 @@ from setuptools import setup, find_packages
 
 HERE = pathlib.Path(__file__).parent
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 PACKAGE_NAME = 'easyds'
 AUTHOR = 'Ricardo Calura'
 AUTHOR_EMAIL = 'ricardo.calura29@gmail.com'
 URL = 'https://github.com/king-ds/easyds'
-DOWNLOAD_URL = 'https://github.com/king-ds/easyds/archive/0.1.0.tar.gz'
+DOWNLOAD_URL = 'https://github.com/king-ds/easyds/archive/0.1.1.tar.gz'
 
 LICENSE = 'MIT License'
 DESCRIPTION = 'Personal Python library to make usual data science workflow easy.'
