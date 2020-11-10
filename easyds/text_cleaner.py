@@ -1,5 +1,5 @@
 """
-Created on Tue Jun 25 19:48:03 2019
+Created on Thursday November 5 12:55 2020
 
 @authors: king-ds
 """
@@ -7,10 +7,24 @@ Created on Tue Jun 25 19:48:03 2019
 import pandas as pd
 
 def feature_extraction(df, column, stop_words):
+    """
+    Clean the corpus by eliminating special characters, numbers, one-two letter words,
+    and stop words, and lowering the case for consistency. Returns the final dataframe
+    including the transformed corpus.
+
+    Parameters
+    ----------
+    df : dataframe object
+         dataset
+    column : string variable
+         specify corpus column name
+    stop_words : list
+         collection of stop words
+
+    """
 
     df['new_'+column] = df.apply(lambda x: run_helper_functions(x[column], stop_words), axis=1)
     return df
-
 
 def remove_punctuations(x):
 
