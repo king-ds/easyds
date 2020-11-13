@@ -15,7 +15,7 @@ pip install easyds
 
 ### basic_clean
 
-Gives a usual cleaning to your data.
+Gives an usual cleaning to your data.
 ```
 import pandas as pd
 from easyds.data_cleaner import basic_clean
@@ -66,7 +66,8 @@ NuMbeRs           int64
 
 ### feature_extraction
 
-This function is for individuals who doing text analysis.
+Clean the corpus input into its most useful form.
+This is helpful for those interested in text analysis.
 
 Sample usage
 
