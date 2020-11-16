@@ -57,10 +57,10 @@ After <i>basic_clean</i>,
 |3              | 1998/10/31 |4.4      |3      |
 ```
 df.dtypes
-str_Numbers       int64
-STR DaTe          datetime64[ns]
-Str Float         float64
-NuMbeRs           int64
+str_numbers       int64
+str_date          datetime64[ns]
+str_float         float64
+numbers           int64
 ```
 
 
